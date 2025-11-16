@@ -37,3 +37,23 @@ void loop()
 
 }
 //OUTPUT=5 AND 15
+
+
+
+//incriment,Decriment
+void setup()
+{
+Serial.begin(9600);
+int i;
+i=5;
+Serial.println(i);
+i++;
+Serial.println(i);
+ 
+}
+
+void loop()
+{
+
+}
+/output=5 AND 6
